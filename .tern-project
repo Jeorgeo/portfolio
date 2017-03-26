@@ -1,0 +1,12 @@
+{
+  "ecmaVersion": 5,
+  "libs": [
+    "browser"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": {
+      "fullDocs": true
+    }
+  }
+}
