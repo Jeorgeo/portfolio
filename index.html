@@ -6,95 +6,17 @@
     <meta name="keywords" content=" ">
     <meta name="description" content=" ">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="img/HMwebs.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <h1>Юрий Шаховский</h1>
-      <h2>web верстка дизайн</h2>
-      <table class="header-contacts">
-        <tr>
-          <td><span></span>Mail</td>
-          <td>Yury.Shakhouski@gmail.com</td>
-          <td><span class="social social-vk"></span>в контакте</td>
-        </tr>
-        <tr>
-          <td><span></span>Skype</td>
-          <td>Jeorgeo25</td>
-          <td><span class="social social-f"></span>facebook</td>
-        </tr>
-        <tr>
-          <td><span></span>viber whatsapp</td>
-          <td>+375291319600</td>
-          <td><span class="social social-git"></span>git</td>
-        </tr>
-      </table>
-      <nav>
-        <ul>
-          <li>Навыки</li>
-          <li>Портфолио</li>
-          <li>Контакты</li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="main-about">
-        <article class="">
-          <figure>
-            <img src="" alt="Юрий Шаховский web верстка дизайн" height="128" width="128">
-            <h3>Немного о себе</h3>
-            <p>Приветствую вас, дорогие друзья! Я инженер и не всегда занимался веб-разработкой. Но увлечение промышленным дизайном, стремление хотя бы немного улучшить и сделать удобней наш мир привело меня в веб. Мои жизненные ценности: честность, взаимоуважение, пунктуальность.</p>
-          </figure>
-          <h3>Ключевые навыки</h3>
-          <ul>
-            <li><span></span>имею представления о работе и дизайне интерфейсов, внимателен к деталям и не оставлю ваш макет с недоработками, если таковые найдутся.</li>
-            <li><span></span>Кроссбраузерная, валидная и семантическая верстка в соответствии с PSD макетом.</li>
-            <li><span></span>Хорошо знаю основные способы верстки, и их особенности для построения наиболее оптимальной структуры сайта.</li>
-            <li><span></span>Знаю как настроить шаблон и подключить необходимые плагины для быстрого запуска вашего сайта.</li>
-            <li><span></span>Обладаю базовыми знаниями по JS. Не составит труда построить несложный код на стороне клиента или подключить простые библиотеки JQUERY.</li>
-            <li><span></span>В работе пользуюсь системой контролей версий Git.</li>
-            <li><span></span>Знания на уровне построения и нарезки макетов.</li>
-            <li><span></span>Крепкий базовый уровень английского и испанского, читаю литературу.</li>
-          </ul>
-        </article>
-      </section>
-      <section class="main-portfolio">
-        <h2>Портфолио</h2>
-        <div class="portfolio-box">
-          <figure class="portfolio-card">
-            <h4>Барбершоп</h4>
-            <p>Сайт-лендинг</p>
-            <p>Верстка</p>
-          </figure>
-          <figure class="portfolio-card">
-            <h4>Седона</h4>
-            <p>Сайт туристической направленности</p>
-            <p>Верстка</p>
-          </figure>
-          <figure class="portfolio-card">
-            <h4>PE&amp;CV2011</h4>
-            <p>Сайт-визитка</p>
-            <p>Адаптивный дизайн, сайт "под ключ"</p>
-          </figure>
-          <figure class="portfolio-card">
-            <h4>Код и магия</h4>
-            <p>Сайт посвященный онлайн-игре</p>
-            <p>"Оживление" при помощи JS</p>
-          </figure>
-          <figure class="portfolio-card">
-            <h4>Keksby</h4>
-            <p>Нтернет-магазин кошачьих принадлежностей</p>
-            <p>Верстка</p>
-          </figure>
-        </div>
-      </section>
-      <section class="main-contacts">
-        <h2>Контакты</h2>
-        <h3>По всем интересующим вас вопросам можете связаться со мной по:</h3>
-        <table class="footer-contacts">
+    <header class="main-header">
+      <div class="container">
+        <h1>Юрий Шаховский</h1>
+        <h2>web верстка дизайн</h2>
+        <table class="header-contacts">
           <tr>
             <td><span></span>Mail</td>
             <td>Yury.Shakhouski@gmail.com</td>
@@ -108,18 +30,114 @@
             <td>+375291319600</td>
           </tr>
         </table>
-        <h3>Если есть вопросы, вы можете задать их прямо здесь:</h3>
-        <form class="main-form-box" action="post.php" method="post" >
-          <label for="name">Ваше имя:*</label>
-          <input id="name" type="text" name="name" placeholder="Nombre y Apellido" required>
-          <label for="mail">Ваш e-mail:*</label>
-          <input id="mail" type="text" name="mail" placeholder="email@domain.com" required>
-          <label for="message">Ваше сообщение:*</label>
-          <textarea id="message" name="message"  required>
-          </textarea>
-          <span>* - Обязательно для заполнения</span>
-          <input type="submit" class="form-message-btn" name="send" value="отправить">
-        </form>
+        <div class="header-social">
+          <a class="social-btn social-btn-f" href="#">фэйсбук</a>
+          <a class="social-btn social-btn-vk" href="#">в контакте</a>
+          <a class="social-btn social-btn-git" href="#">github</a>
+        </div>
+      </div>
+      <div class="main-nav">
+        <nav class="container">
+          <ul>
+            <li><a href="#">Навыки</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="main-about">
+        <article class="main-about-container">
+          <figure>
+            <img src="img/portrait_256.jpg" alt="Юрий Шаховский web верстка дизайн" height="256" width="256">
+            <h3>Немного о себе</h3>
+            <p>Приветствую вас, дорогие друзья! Я инженер и не всегда занимался веб-разработкой. Но увлечение промышленным дизайном, стремление хотя бы немного улучшить и сделать удобней наш мир привело меня в веб. Мои жизненные ценности: честность, взаимоуважение, пунктуальность.</p>
+          </figure>
+          <figure class="key skills">
+            <h3>Ключевые навыки</h3>
+            <ul>
+              <li><span></span>Имею представления о работе и дизайне интерфейсов, внимателен к деталям и не оставлю ваш макет с недоработками, если таковые найдутся.</li>
+              <li><span></span>Кроссбраузерная, валидная и семантическая верстка в соответствии с PSD макетом.</li>
+              <li><span></span>Хорошо понимаю основные способы верстки, и их особенности для построения наиболее оптимальной структуры сайта.</li>
+              <li><span></span>Знаю как настроить шаблон и подключить необходимые плагины для быстрого запуска вашего сайта.</li>
+              <li><span></span>Обладаю базовыми знаниями по JS. Не составит труда построить несложный код на стороне клиента или подключить простые библиотеки JQUERY.</li>
+              <li><span></span>В работе пользуюсь системой контролей версий Git.</li>
+              <li><span></span>ретушь изображений, построение и нарезка макетов.</li>
+              <li><span></span>Крепкий базовый уровень английского и испанского, читаю литературу.</li>
+            </ul>
+          </figure>
+        </article>
+      </section>
+      <section class="main-portfolio">
+        <div class="portfolio-title">
+          <h2 class="container">Портфолио</h2>
+        </div>
+        <div class="portfolio-box">
+          <div class="container">
+            <figure class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Барбершоп" data-description="Сайт парихмахерской для настоящих мужчин. Верстка">
+                <img src="img/barbershop.jpg" alt="Барбершоп" width="220" height="220">
+              </a>
+            </figure>
+            <figure class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Седона" data-description="Туристический уголок США">
+                <img src="img/sedona.jpg" alt="Седона" width="220" height="220">
+              </a>
+            </figure>
+            <figure class="portfolio-card">
+              <a class="caption-link" href="#" data-title="PE&amp;CV2011" data-description="Сайт визитка строительной фирмы. Разработка лого. Адаптивный дизайн. Верстка. Размещение на хостинге">
+                <img src="img/pecv2011.jpg" alt="pe&amp;cv2011" width="220" height="220">
+              </a>
+            </figure>
+            <figure class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Код и Магия" data-description="Промо-сайт онлайн игры. Оживление при помощи JS">
+                <img src="img/cam.jpg" alt="Code and magic" width="220" height="220">
+              </a>
+            </figure>
+            <figure class="portfolio-card">
+              <a class="caption-link" href="#" data-title="KeksBY" data-description="Нтернет-магазин кошачьих принадлежностей. Верстка">
+                <img src="img/keksby.jpg" alt="KeksBY" width="220" height="220">
+              </a>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section class="main-contacts">
+        <div class="container">
+          <h2>Контакты</h2>
+          <div class="contacts-box">
+            <h3>По всем интересующим вас вопросам можете связаться со мной по:</h3>
+            <table class="footer-contacts">
+              <tr>
+                <td><span></span>Mail</td>
+                <td>Yury.Shakhouski@gmail.com</td>
+              </tr>
+              <tr>
+                <td><span></span>Skype</td>
+                <td>Jeorgeo25</td>
+              </tr>
+              <tr>
+                <td><span></span>viber whatsapp</td>
+                <td>+375291319600</td>
+              </tr>
+            </table>
+          </div>
+          <div class="form-box">
+            <h3>Если есть вопросы, вы можете задать их прямо здесь:</h3>
+            <form class="main-form-box" action="post.php" method="post" >
+              <label for="name">Ваше имя:*</label>
+              <input id="name" type="text" name="name" placeholder="Имя" required>
+              <label for="mail">Ваш e-mail:*</label>
+              <input id="mail" type="text" name="mail" placeholder="email@domain.com" required>
+              <label for="message">Ваше сообщение:*</label>
+              <textarea id="message" name="message"  required>
+              </textarea>
+              <span>* - Обязательно для заполнения</span>
+              <input type="submit" class="form-message-btn" name="send" value="отправить">
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer>

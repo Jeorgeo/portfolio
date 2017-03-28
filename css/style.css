@@ -1,0 +1,126 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #e7e4dc url("../img/background.png") repeat 0 0;
+  background-attachment: fixed;
+}
+
+/*  first - mobile  */
+
+body {
+  width: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1em;
+  line-height: normal;
+}
+
+.container {
+  max-width: 960px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1,
+h2 {
+  font-size: 1.4em;
+  line-height: 1.625em;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.625em;
+  font-weight: bold;
+  padding: 0;
+}
+
+.main-header h2 {
+  font-size: 1em;
+  color: #173047;
+}
+
+h3 {
+  margin: 0.5em 0;
+  font-size: 0.875em;
+  line-height: normal;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin: 0.5em 0;
+  font-size: 1.125em;
+  line-height: 1.625em;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+figure {
+  margin: 1em 10%;
+}
+
+.main-nav,
+.portfolio-box {
+  width: 100%;
+  background-color: #173047;
+}
+
+.main-nav ul {
+  margin: 1em 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 0.5em 5%;
+}
+
+.main-nav a {
+  padding: 0.4em 1em;
+  font-size: 1.2em;
+  text-decoration: none;
+
+  color: #e7e4dc;
+}
+
+.main-nav a:hover {
+  font-weight: bold;
+  color: #173047;
+  background: #e7e4dc url("../img/background.png") repeat 0 0;
+}
+
+.main-nav a:active {
+  font-weight: bold;
+  color: #e7e4dc;
+  background: #2e140b;
+}
+
+.portfolio-box {
+  padding: 0.2em 0;
+}
+
+.portfolio-box .portfolio-card {
+  width: 240px;
+  height: 282px;
+  margin: 1em auto;
+  background: #e7e4dc url("../img/background.png") repeat 0 0;
+}
+
+.portfolio-card img {
+  margin: 10px 10px;
+  background-color: #2e140b;
+}
