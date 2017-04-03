@@ -13,24 +13,26 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
-        <h1>Юрий Шаховский</h1>
-        <h2>web верстка дизайн</h2>
-        <table class="header-contacts">
+      <div class="container clearfix">
+        <div class="header-title cols col-4">
+          <h1>Юрий Шаховский</h1>
+          <h2>web верстка дизайн</h2>
+        </div>
+        <table class="header-contacts cols col-4">
           <tr>
-            <td><span></span>Mail</td>
-            <td>Yury.Shakhouski@gmail.com</td>
+            <td><span class="header-contacts-mail">Mail</span></td>
+            <td><a href="mailto:Yury.Shakhouski@gmail.com">Yury.Shakhouski@gmail.com </a></td>
           </tr>
           <tr>
-            <td><span></span>Skype</td>
-            <td>Jeorgeo25</td>
+            <td><span class="header-contacts-skype">Skype</span></td>
+            <td><a href="skype:jeorgeo25?add">Yury Shakhouski</a></td>
           </tr>
           <tr>
-            <td><span></span>viber whatsapp</td>
-            <td>+375291319600</td>
+            <td><span class="header-contacts-viber">viber whatsapp</span></td>
+            <td><a href="tel:+375291319600">+375291319600</a></td>
           </tr>
         </table>
-        <div class="header-social">
+        <div class="header-social cols col-4">
           <a class="social-btn social-btn-f" href="#">фэйсбук</a>
           <a class="social-btn social-btn-vk" href="#">в контакте</a>
           <a class="social-btn social-btn-git" href="#">github</a>
@@ -39,9 +41,9 @@
       <div class="main-nav">
         <nav class="container">
           <ul>
-            <li><a href="#">Навыки</a></li>
-            <li><a href="#">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li class="cols col-4"><a href="#">Навыки</a></li>
+            <li class="cols col-4"><a href="#">Портфолио</a></li>
+            <li class="cols col-4"><a href="#">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -49,12 +51,12 @@
     <main>
       <section class="main-about">
         <article class="main-about-container">
-          <figure>
-            <img src="img/portrait_256.jpg" alt="Юрий Шаховский web верстка дизайн" height="256" width="256">
+          <section class="cols col-6">
+            <img src="img/portrait_256.jpg" alt="Юрий Шаховский web верстка дизайн" height="285" width="285">
             <h3>Немного о себе</h3>
             <p>Приветствую вас, дорогие друзья! Я инженер и не всегда занимался веб-разработкой. Но увлечение промышленным дизайном, стремление хотя бы немного улучшить и сделать удобней наш мир привело меня в веб. Мои жизненные ценности: честность, взаимоуважение, пунктуальность.</p>
-          </figure>
-          <figure class="key skills">
+          </section>
+          <section class="key-skills cols col-6">
             <h3>Ключевые навыки</h3>
             <ul>
               <li><span></span>Имею представления о работе и дизайне интерфейсов, внимателен к деталям и не оставлю ваш макет с недоработками, если таковые найдутся.</li>
@@ -66,7 +68,7 @@
               <li><span></span>ретушь изображений, построение и нарезка макетов.</li>
               <li><span></span>Крепкий базовый уровень английского и испанского, читаю литературу.</li>
             </ul>
-          </figure>
+          </section>
         </article>
       </section>
       <section class="main-portfolio">
@@ -75,27 +77,27 @@
         </div>
         <div class="portfolio-box">
           <div class="container">
-            <figure class="portfolio-card">
-              <a class="caption-link" href="#" data-title="Барбершоп" data-description="Сайт парихмахерской для настоящих мужчин. Верстка">
-                <img src="img/barbershop.jpg" alt="Барбершоп" width="220" height="220">
+            <figure class="portfolio-card cols col-4">
+              <a class="caption-link" href="#" data-title="Барбершоп Бородинский" data-description="Сайт парихмахерской для настоящих мужчин. Верстка">
+                <img src="img/barbershop.jpg" alt="Барбершоп Бородинский" width="220" height="220">
               </a>
             </figure>
-            <figure class="portfolio-card">
+            <figure class="portfolio-card cols col-4">
               <a class="caption-link" href="#" data-title="Седона" data-description="Туристический уголок США">
                 <img src="img/sedona.jpg" alt="Седона" width="220" height="220">
               </a>
             </figure>
-            <figure class="portfolio-card">
+            <figure class="portfolio-card cols col-4">
               <a class="caption-link" href="#" data-title="PE&amp;CV2011" data-description="Сайт визитка строительной фирмы. Разработка лого. Адаптивный дизайн. Верстка. Размещение на хостинге">
-                <img src="img/pecv2011.jpg" alt="pe&amp;cv2011" width="220" height="220">
+                <img src="img/pecv2011.jpg" alt="pecv2011" width="220" height="220">
               </a>
             </figure>
-            <figure class="portfolio-card">
+            <figure class="portfolio-card cols col-4">
               <a class="caption-link" href="#" data-title="Код и Магия" data-description="Промо-сайт онлайн игры. Оживление при помощи JS">
                 <img src="img/cam.jpg" alt="Code and magic" width="220" height="220">
               </a>
             </figure>
-            <figure class="portfolio-card">
+            <figure class="portfolio-card cols col-4">
               <a class="caption-link" href="#" data-title="KeksBY" data-description="Нтернет-магазин кошачьих принадлежностей. Верстка">
                 <img src="img/keksby.jpg" alt="KeksBY" width="220" height="220">
               </a>
@@ -106,7 +108,7 @@
       <section class="main-contacts">
         <div class="container">
           <h2>Контакты</h2>
-          <div class="contacts-box">
+          <div class="contacts-box cols col-6">
             <h3>По всем интересующим вас вопросам можете связаться со мной по:</h3>
             <table class="footer-contacts">
               <tr>
@@ -123,7 +125,7 @@
               </tr>
             </table>
           </div>
-          <div class="form-box">
+          <div class="form-box cols col-6">
             <h3>Если есть вопросы, вы можете задать их прямо здесь:</h3>
             <form class="main-form-box" action="post.php" method="post" >
               <label for="name">Ваше имя:*</label>
@@ -141,17 +143,19 @@
       </section>
     </main>
     <footer>
-      <div class="footer-title">
-        HMwebs
-      </div>
-        <div class="footer-social">
-          <p>Давайте дружить</p>
-          <a class="social-btn social-btn-f" href="#">фэйсбук</a>
-          <a class="social-btn social-btn-vk" href="#">в контакте</a>
-          <a class="social-btn social-btn-git" href="#">github</a>
+      <div class="container clearfix">
+        <div class="footer-title">
+          <a href="#">HMwebs</a>
         </div>
-      <div class="footer-copyright">
-        <span>All rights reversed &copy; Copyright 2017 </span>
+          <div class="footer-social">
+            <span>Давайте дружить</span>
+            <a class="social-btn social-btn-f" href="#">фэйсбук</a>
+            <a class="social-btn social-btn-vk" href="#">в контакте</a>
+            <a class="social-btn social-btn-git" href="#">github</a>
+          </div>
+        <div class="footer-copyright">
+          <span> All rights reversed &copy; Copyright 2017</span>
+        </div>
       </div>
     </footer>
   </body>

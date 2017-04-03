@@ -13,18 +13,35 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 1em;
   line-height: normal;
+  color: #173047;
 }
 
-.container {
+.container,
+.main-about-container {
   max-width: 960px;
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
+}
+
+.cols.col-1,
+.cols.col-2,
+.cols.col-3,
+.cols.col-4,
+.cols.col-5,
+.cols.col-6,
+.cols.col-7,
+.cols.col-8,
+.cols.col-9,
+.cols.col-10,
+.cols.col-11,
+.cols.col-12 {
+  width: 100%;
 }
 
 h1,
@@ -73,32 +90,63 @@ figure {
 }
 
 .main-nav,
+.main-about,
+.portfolio-title,
 .portfolio-box {
-  width: 100%;
+  color: #e7e4dc;
   background-color: #173047;
 }
 
+.header-title,
+.header-contacts {
+  float: left;
+}
+
+.header-social {
+  float: right;
+}
+
+.header-contacts span {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 0;
+  margin-right: 6px;
+  width: 64px;
+  height: 64px;
+  background: url("../img/spritesheet.png") no-repeat 0 0;
+}
+
+.header-contacts-mail {
+  background-position: -5px -1115px;
+}
+
 .main-nav ul {
-  margin: 1em 0;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .main-nav li {
   display: inline-block;
-  padding: 0.5em 5%;
+  vertical-align: top;
 }
 
 .main-nav a {
-  padding: 0.4em 1em;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  text-align: center;
+  padding: 0.5em 5%;
   font-size: 1.2em;
   text-decoration: none;
-
   color: #e7e4dc;
+  box-sizing: border-box;
 }
 
 .main-nav a:hover {
   font-weight: bold;
+  border: 1px solid #173047;
   color: #173047;
   background: #e7e4dc url("../img/background.png") repeat 0 0;
 }
@@ -107,6 +155,40 @@ figure {
   font-weight: bold;
   color: #e7e4dc;
   background: #2e140b;
+}
+
+.main-about-container {
+  padding: 0 5%;
+  box-sizing: border-box;
+  color: #173047;
+  background: #e7e4dc url("../img/background.png") repeat 0 0;
+}
+
+.main-about.col-6 {
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.main-about img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.key-skills ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.key-skills li {
+  padding-bottom: 0.3em;
+}
+
+.portfolio-title h2 {
+  color: #e7e4dc;
 }
 
 .portfolio-box {
@@ -123,4 +205,72 @@ figure {
 .portfolio-card img {
   margin: 10px 10px;
   background-color: #2e140b;
+}
+
+.contacts-box h3 {
+  margin: 0;
+}
+
+.main-form-box input,
+.main-form-box textarea {
+  display: block;
+  width: 96%;
+  margin: 3% 2%;
+  padding: 3px 3px 3px 13px;
+  font-size: 1.1em;
+  box-sizing: border-box;
+  border: solid #000000 1px;
+}
+
+.form-message-btn {
+  width: 100%;
+  height: auto;
+  min-height: 2.5em;
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  background-color: #2e140b;
+  color: #e7e4dc;
+  border: solid #173047 1px;
+}
+
+.form-message-btn:hover {
+  cursor: pointer;
+  color: #2e140b;
+  background: #e7e4dc url("../img/background.png") repeat 0 0;
+  border: solid #2e140b 1px;
+}
+
+.form-message-btn:active {
+  background: red;
+  color: #e7e4dc;
+  border: solid #e7e4dc 1px;
+}
+
+footer {
+  padding: 0.75em 0;
+  color: #666666;
+  background-color: #173047;
+}
+
+footer a {
+  text-decoration: none;
+  color: #666666;
+}
+
+footer a:hover {
+  color: #e7e4dc;
+}
+
+.footer-title {
+  float: left;
+}
+
+.footer-social {
+  float: left;
+}
+
+.footer-copyright {
+  float: right;
 }

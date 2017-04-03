@@ -1,0 +1,161 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-001_facebook_h {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.sprite-002_facebook_hh {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -79px;
+}
+
+.sprite-003_facebook_a {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -153px;
+}
+
+.sprite-004_facebook_hf {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -227px;
+}
+
+.sprite-005_facebook_f {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -301px;
+}
+
+.sprite-006_vk_h {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -375px;
+}
+
+.sprite-007_vk_hh {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -449px;
+}
+
+.sprite-008_vk_a {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -523px;
+}
+
+.sprite-009_vk_fh {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -597px;
+}
+
+.sprite-010_vk_f {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -671px;
+}
+
+.sprite-011_github_h {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -745px;
+}
+
+.sprite-012_github_hh {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -819px;
+}
+
+.sprite-013_github_a {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -893px;
+}
+
+.sprite-014_github_hf {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -967px;
+}
+
+.sprite-015_github_f {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -1041px;
+}
+
+.sprite-016_gmail {
+    width: 64px;
+    height: 51px;
+    background-position: -5px -1115px;
+}
+
+.sprite-017_skype {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -1176px;
+}
+
+.sprite-018_viber_watsapp {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -1250px;
+}
+
+.sprite-019_uiux {
+    width: 66px;
+    height: 70px;
+    background-position: -5px -1324px;
+}
+
+.sprite-020_html5 {
+    width: 56px;
+    height: 72px;
+    background-position: -5px -1404px;
+}
+
+.sprite-021_css3 {
+    width: 51px;
+    height: 72px;
+    background-position: -5px -1486px;
+}
+
+.sprite-022_wp {
+    width: 63px;
+    height: 63px;
+    background-position: -5px -1568px;
+}
+
+.sprite-023_js {
+    width: 51px;
+    height: 72px;
+    background-position: -5px -1641px;
+}
+
+.sprite-024_github {
+    width: 56px;
+    height: 72px;
+    background-position: -5px -1723px;
+}
+
+.sprite-025_photoshop {
+    width: 42px;
+    height: 48px;
+    background-position: -5px -1805px;
+}
+
+.sprite-026_lang {
+    width: 76px;
+    height: 51px;
+    background-position: -5px -1863px;
+}
