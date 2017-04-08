@@ -598,7 +598,7 @@ footer a:hover {
   }
 
   .cols.col-4 {
-    width: 33.332%;
+    width: 32%;
   }
 
   .cols.col-5 {
@@ -633,6 +633,10 @@ footer a:hover {
     width: 100%;
   }
 
+  .header-social .social-btn {
+    margin: 20% 5% 0 5%;
+  }
+
   .key-skills {
     padding-left: 5%;
   }
@@ -648,6 +652,10 @@ footer a:hover {
   .contacts-box h3 {
     width: 80%;
     padding-top: 1%;
+  }
+
+  .main-header td {
+    padding: 0.5em 0.05em;
   }
 
   .main-contacts td {
