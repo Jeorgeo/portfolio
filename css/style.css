@@ -85,10 +85,6 @@ h4 {
   text-transform: uppercase;
 }
 
-figure {
-  margin: 1em 10%;
-}
-
 .main-nav,
 .main-about,
 .portfolio-title,
@@ -334,47 +330,41 @@ td:first-child {
   background-position: -5px -1378px;
 }
 
+.main-portfolio {
+  background-color: #173047;
+  padding-bottom: 2em;
+  box-shadow: 0 10px 15px -5px #333333;
+}
+
 .portfolio-title h2 {
   color: #e7e4dc;
+  padding-bottom: 0.5em;
 }
 
-.portfolio-box {
-  padding: 0.2em 0;
-  text-align: center;
-  box-shadow: 0 0 10px 2px #333333;
-}
-
-.portfolio-box .portfolio-card {
-  display: none;
-  width: 240px;
-  height: 282px;
-  margin: 1em 10px;
-  padding: 10px 10px;
-  box-sizing: border-box;
-  background: #e7e4dc url("../img/background.png") repeat 0 0;
-  box-shadow: 0 0 2px 1px #e7e4dc;
-}
-
-.portfolio-box .portfolio-card:nth-child(1) {
-  display: inline-block;
+.centering-slider {
+  padding-left: 15%;
 }
 
 .caption-link {
   position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px 10px;
+  box-sizing: border-box;
   z-index: 1;
   display: block;
   overflow: hidden;
+  background-color: white;
 }
 
 .caption-link img {
   display: block;
-  max-width: 100%;
-  outline: 2px solid black;
+  max-width: 220px;
   transition: transform 0.3s ease;
 }
 
 .caption-link:hover img {
-  transform: translateX(100%);
+  transform: translateX(240px);
 }
 
 .caption-link::before,
@@ -382,17 +372,16 @@ td:first-child {
   position: absolute;
   left: 0;
   z-index: -1;
-  width: 100%;
+  width: 220px;
+  margin: 0 10px;
   text-align: center;
   background: #2e140b;
   box-sizing: border-box;
-  transition: transform 0.3s ease-in-out;
-  transform: translateX(-90px);
 }
 
 .caption-link::before {
   content: attr(data-title);
-  height: 30%;
+  height: 70px;
   padding: 10px 30px;
   font-size: 22px;
   font-weight: bold;
@@ -402,7 +391,7 @@ td:first-child {
 .caption-link::after {
   content: attr(data-description);
   top: 30%;
-  height: 70%;
+  height: 155px;
   padding: 0 30px;
   color: #d7bb97;
 }
@@ -410,22 +399,6 @@ td:first-child {
 .caption-link:hover::before,
 .caption-link:hover::after {
   transform: translateX(0);
-}
-
-.portfolio-btn {
-  display: block;
-  text-align: center;
-}
-
-.btn-more {
-  display: inline-block;
-  width: 240px;
-  margin: 2%;
-  padding: 0.5em 1em;
-  font-size: 1.2em;
-  color: #173047;
-  background-color: #e7e4dc;
-  border: 1px solid #e7e4dc;
 }
 
 .contacts-box h3 {
@@ -577,7 +550,7 @@ footer a:hover {
 @media screen and (min-width: 768px) {
   .container,
   .main-about-container {
-    max-width: 960px;
+    max-width: 768px;
   }
 
   .cols {
@@ -645,8 +618,8 @@ footer a:hover {
     padding-bottom: 2em;
   }
 
-  .centering {
-    text-align: center;
+  .centering-slider {
+    padding-left: 10%;
   }
 
   .contacts-box h3 {
@@ -662,11 +635,6 @@ footer a:hover {
     padding: 1em 1em;
   }
 
-  .portfolio-box .portfolio-card:nth-child(1),
-  .portfolio-box .portfolio-card:nth-child(2) {
-    display: inline-block;
-  }
-
   .footer-social-box {
     display: inline-block;
     width: 60%;
@@ -675,10 +643,21 @@ footer a:hover {
 
 }
 
-@media screen and (min-width: 880px) {
-  .portfolio-box .portfolio-card:nth-child(1),
-  .portfolio-box .portfolio-card:nth-child(2),
-  .portfolio-box .portfolio-card:nth-child(3) {
-    display: inline-block;
+@media screen and (min-width: 1024px) {
+  .container,
+  .main-about-container {
+    max-width: 968px;
   }
+
+  .centering-slider {
+    padding-left: 5%;
+  }
+
+}
+
+@media screen and (min-width: 1360px) {
+  .centering-slider {
+    padding-left: 6%;
+  }
+
 }
