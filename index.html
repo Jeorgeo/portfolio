@@ -55,7 +55,7 @@
       <div class="main-nav">
         <nav class="container clearfix">
           <ul>
-            <li class="cols col-4"><a href="#">Навыки</a></li>
+            <li class="nav-skils cols col-4"><a href="#">Навыки</a></li>
             <li class="cols col-4"><a href="#">Портфолио</a></li>
             <li class="cols col-4"><a href="#">Контакты</a></li>
           </ul>
@@ -66,7 +66,7 @@
       <section class="main-about">
         <article class="main-about-container clearfix">
           <section class="cols col-6">
-            <img src="img/portrait_256.jpg" alt="Юрий Шаховский web верстка дизайн" height="285" width="285">
+            <img src="img/portrait_285.jpg" alt="Юрий Шаховский web верстка дизайн" height="285" width="285">
             <h3>Немного о себе</h3>
             <p>Приветствую вас, дорогие друзья! Я инженер и не всегда занимался веб-разработкой. Но увлечение промышленным дизайном, стремление хотя бы немного улучшить и сделать удобней наш мир привело меня в веб. Мои жизненные ценности: честность, взаимоуважение, пунктуальность.</p>
           </section>
@@ -184,45 +184,9 @@
         </div>
       </div>
     </footer>
-
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-
-    <script type="text/javascript">
-      $(document).ready(function(){
-        $('.portfolio-cards').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 900,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-      });
-
-    </script>
-
+    <script type="text/javascript" src="js/slider.js"></script>
   </body>
 </html>
