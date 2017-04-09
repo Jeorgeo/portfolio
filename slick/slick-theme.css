@@ -79,11 +79,11 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: -35px;
 }
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 25px;
     left: auto;
 }
 .slick-prev:before
@@ -97,12 +97,12 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 25px;
 }
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: -35px;
 }
 .slick-next:before
 {
@@ -123,6 +123,7 @@
 {
     position: absolute;
     bottom: -25px;
+
 
     display: block;
 
@@ -192,7 +193,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: #e7e4dc;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -200,5 +201,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: #e7e4dc;
 }

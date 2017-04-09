@@ -89,39 +89,34 @@
         <div class="portfolio-title">
           <h2 class="container">Портфолио</h2>
         </div>
-        <div class="portfolio-box">
-          <div class="container clearfix centering slider-inner">
-            <div class="slider-slides">
-              <figure class="portfolio-card">
-                <a class="caption-link" href="#" data-title="Барбершоп Бородинский" data-description="Сайт парихмахерской для настоящих мужчин. Верстка">
-                  <img src="img/barbershop.jpg" alt="Барбершоп Бородинский" width="220" height="220">
-                </a>
-              </figure>
-              <figure class="portfolio-card">
-                <a class="caption-link" href="#" data-title="Седона" data-description="Туристический уголок США. Верстка">
-                  <img src="img/sedona.jpg" alt="Седона" width="220" height="220">
-                </a>
-              </figure>
-              <figure class="portfolio-card">
-                <a class="caption-link" href="#" data-title="PE&amp;CV2011" data-description="Сайт визитка строительной фирмы. Разработка лого. Адаптивный дизайн. Верстка. Размещение на хостинге">
-                  <img src="img/pecv2011.jpg" alt="pecv2011" width="220" height="220">
-                </a>
-              </figure>
-              <figure class="portfolio-card">
-                <a class="caption-link" href="#" data-title="Код и Магия" data-description="Промо-сайт онлайн игры. Оживление при помощи JS">
-                  <img src="img/cam.jpg" alt="Code and magic" width="220" height="220">
-                </a>
-              </figure>
-              <figure class="portfolio-card">
-                <a class="caption-link" href="#" data-title="KeksBY" data-description="Интернет-магазин кошачьих принадлежностей. Верстка">
-                  <img src="img/keksby.jpg" alt="KeksBY" width="220" height="220">
-                </a>
-              </figure>
-
+        <div class="container centering-slider">
+          <div class="portfolio-cards">
+            <div class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Барбершоп Бородинский" data-description="Сайт парихмахерской для настоящих мужчин. Верстка">
+                <img src="img/barbershop.jpg" alt="Барбершоп Бородинский" width="220" height="220">
+              </a>
+            </div>
+            <div class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Седона" data-description="Туристический уголок США. Верстка">
+                <img src="img/sedona.jpg" alt="Седона" width="220" height="220">
+              </a>
+            </div>
+            <div class="portfolio-card">
+              <a class="caption-link" href="#" data-title="PE&amp;CV2011" data-description="Сайт визитка строительной фирмы. Разработка лого. Адаптивный дизайн. Верстка. Размещение на хостинге">
+                <img src="img/pecv2011.jpg" alt="pecv2011" width="220" height="220">
+              </a>
+            </div>
+            <div class="portfolio-card">
+              <a class="caption-link" href="#" data-title="Код и Магия" data-description="Промо-сайт онлайн игры. Оживление при помощи JS">
+                <img src="img/cam.jpg" alt="Code and magic" width="220" height="220">
+              </a>
+            </div>
+            <div class="portfolio-card">
+              <a class="caption-link" href="#" data-title="KeksBY" data-description="Интернет-магазин кошачьих принадлежностей. Верстка">
+                <img src="img/keksby.jpg" alt="KeksBY" width="220" height="220">
+              </a>
             </div>
           </div>
-          <span class="portfolio-btn btn-forward">вперед</span>
-          <span class="portfolio-btn btn-backward">назад</span>
         </div>
       </section>
       <section class="main-contacts clearfix">
@@ -196,18 +191,18 @@
 
     <script type="text/javascript">
       $(document).ready(function(){
-        $('.portfolio-box').slick({
+        $('.portfolio-cards').slick({
     dots: true,
     infinite: false,
     speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 900,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true
         }
@@ -215,17 +210,11 @@
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
           slidesToShow: 1,
           slidesToScroll: 1
         }
       }
+
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
