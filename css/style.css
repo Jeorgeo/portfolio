@@ -241,6 +241,7 @@ td:first-child {
 .main-about {
   display: none;
   opacity: 0;
+  padding-bottom: 5px;
 }
 
 .main-about-container {
@@ -248,6 +249,11 @@ td:first-child {
   box-sizing: border-box;
   color: #173047;
   background: #e7e4dc url("../img/background.png") repeat 0 0;
+  box-shadow: 0 3px 10px 2px #e7e4dc;
+}
+
+.main-about-container p {
+  margin-top: 0;
 }
 
 .main-about.col-6 {
@@ -678,7 +684,7 @@ footer a:hover {
 
 @media screen and (min-width: 1360px) {
   .centering-slider {
-    padding-left: 6%;
+    padding-left: 6.5%;
   }
 
 }

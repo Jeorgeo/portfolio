@@ -3,7 +3,7 @@
 
 header("Content-Type: text/html; charset=utf-8");
 
-$adminemail="pecv2011@gmail.com";  // e-mail админа
+$adminemail="yury.shakhouski@gmail.com";  // e-mail админа
 
 
 $date=date("d.m.y"); // число.месяц.год
@@ -21,8 +21,6 @@ $backurl="http://hmwebs.ru/index.html";  // На какую страничку �
 $name=$_POST['name'];
 
 $email=$_POST['mail'];
-
-$tel=$_POST['telephone'];
 
 $msg=$_POST['message'];
 
@@ -51,8 +49,6 @@ $msg="
 
 
 <p>Имя: $name</p>
-
-<p>телефон: $tel</p>
 
 <p>E-mail: $email</p>
 
