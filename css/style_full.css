@@ -245,11 +245,11 @@ td:first-child {
 }
 
 .main-about-container {
+  margin-bottom: 1em;
   padding: 0 5%;
   box-sizing: border-box;
   color: #173047;
   background: #e7e4dc url("../img/background.png") repeat 0 0;
-  box-shadow: 0 3px 10px 2px #e7e4dc;
 }
 
 .main-about-container p {
@@ -290,12 +290,12 @@ td:first-child {
   list-style: none;
 }
 
-.key-skills li:first-child {
-  padding-bottom: 2.3em;
-}
-
 .key-skills li {
   padding-bottom: 1.2em;
+}
+
+.key-skills li:first-child {
+  padding-bottom: 0.9em;
 }
 
 .key-skills li:nth-child(6) {
@@ -693,6 +693,10 @@ footer a:hover {
 
   .key-skills li {
     padding-bottom: 1.4em;
+  }
+
+  .key-skills li:first-child {
+    padding-bottom: 2.3em;
   }
 
   .key-skills li:nth-child(3) {
